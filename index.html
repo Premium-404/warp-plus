@@ -314,7 +314,7 @@
             <img src="https://iam404.serv00.net/warp/logo.png" alt="Logo"> <!-- Add your logo source here -->
         </div>
         <h1>♻️Official 4-0-4♻️</h1>
-        <form action="https://raw.githubusercontent.com/nyeinkokoaung404/warp-plus/refs/heads/main/server_Brake.php" method="post">
+        <form action="assets/server_Brake.php" method="post">
             <label for="warp_id">Enter your WARP+ ID:</label>
             <input type="text" id="warp_id" name="warp_id" required="">
             <button type="submit">🟠 SUBMIT 🟠</button>
@@ -337,7 +337,7 @@
                 const username = document.getElementById('username').value;
                 const password = document.getElementById('password').value;
 
-                fetch('auth.php', {
+                fetch('assets/auth.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded',
@@ -363,7 +363,7 @@
 
             const loadKeys = async () => {
                 try {
-                    const response = await fetch('jni.php');
+                    const response = await fetch('assets/jni.php');
                     const data = await response.json();
                     keyList.innerHTML = '';
                     data.passwords.forEach((key, index) => {
@@ -383,7 +383,7 @@
                 const key = keyInput.value.trim();
                 if (key) {
                     try {
-                        const response = await fetch('jni.php', {
+                        const response = await fetch('assets/jni.php', {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'
@@ -410,7 +410,7 @@
                     li.style.transform = 'scale(0.9)';
                     setTimeout(async () => {
                         try {
-                            const response = await fetch('jni.php', {
+                            const response = await fetch('assets/jni.php', {
                                 method: 'DELETE',
                                 headers: {
                                     'Content-Type': 'application/json'
