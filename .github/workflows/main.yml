@@ -32,5 +32,5 @@ jobs:
           git config --global user.name "nirevil"
           git config credential.helper store
           git add -A
-          git commit -m "🚀 Last Run"
+          git commit -m "🚀 Last Run - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
           git push
