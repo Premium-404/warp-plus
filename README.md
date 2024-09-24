@@ -19,12 +19,12 @@ $$\color{silver} \Huge \text{\R $\sum{\vil_t = \mathbb{N108}\infty}$}$$
 
 ### Hiddify URL <img src="edge/assets/Hiddify-icon.png" alt="Hiddify" width="30"/>
 ```POV-Ray SDL
-https://raw.githubusercontent.com/NiREvil/vless/main/warp.json
+https://raw.githubusercontent.com/nyeinkokoaung404/warp-plus/main/warp.json
 ```
 
 ### Sing-Box URL <img src="edge/assets/Singbox-icon.svg" alt="Sing-Box" width="20"/>
 ```mupad
-https://raw.githubusercontent.com/NiREvil/vless/main/sing-box.json
+https://raw.githubusercontent.com/nyeinkokoaung404/warp-plus/main/sing-box.json
 ```
 
 ### Scan with Hiddify 👇🏿
