@@ -192,7 +192,8 @@
       {
         "rule_set": [
           "geoip-ir",
-          "geosite-ir"
+          "geosite-ir",
+          "geoip:private"
         ],
         "outbound": "direct"
       },
