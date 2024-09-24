@@ -1,5 +1,5 @@
 
-$$\color{silver} \Huge \text{\iAm $\sum{\vil_t = \mathbb{N108}\infty}$}$$
+$$\color{silver} \Huge \text{\iAm $\sum{\4-0-4_t = \mathbb{N108}\infty}$}$$
 
 
 
