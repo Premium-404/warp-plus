@@ -29,7 +29,7 @@ jobs:
     - name: Commit and push changes
       run: |          
           git config --global user.email "nyeinkokoaung1997@gmail.com"
-          git config --global user.name "4-0-4"
+          git config --global user.name "nyeinkokoaung1997"
           git config credential.helper store
           git add -A
           git commit -m "🚀 Last Run - $(TZ='Asia/Tehran' date '+%Y-%m-%d %H:%M:%S')"
