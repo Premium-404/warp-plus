@@ -99,19 +99,19 @@
         {
             "tag": "TEHRAN",
             "type": "wireguard",
-            "server": "188.114.96.157",
-            "server_port": 3854,
+            "server": "188.114.97.8",
+            "server_port": 968,
             "local_address": [
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "wGzD7osKsXvUkQb/NSuh2mW8Vp0TLTV9SG2YD8qeBmA=",
+            "private_key": "ELj378NsvfMY0+9SoVbsHAu8t3rq0nhP2VcAnJRPpGc=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1300,
             "reserved": [
-                153,
-                0,
-                237
+                213,
+                40,
+                117
             ],
             "detour": "direct",
             "workers": 2
@@ -119,19 +119,19 @@
         {
             "tag": "BERLIN",
             "type": "wireguard",
-            "server": "188.114.99.6",
-            "server_port": 2506,
+            "server": "162.159.192.91",
+            "server_port": 2408,
             "local_address": [
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "oIoYi0nzj/71fD/qnb3olfJqAMVTSrvSQikelfq8vng=",
+            "private_key": "YIXckOQH30g1waZndnT3u3sDGRoxCfeFYO72e/IGdVw=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1300,
             "reserved": [
-                107,
-                37,
-                225
+                21,
+                255,
+                159
             ],
             "detour": "TEHRAN",
             "workers": 2
